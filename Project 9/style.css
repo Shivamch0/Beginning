@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 200px;
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.orange{
+    height: 100px;
+    background-color: orange;
+}
+
+.white{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.line1{
+    height: 100%;
+    width: 3px;
+    background-color: blue;
+}
+
+.green{
+    height : 100px;
+    background-color: green;
+}
