@@ -18,7 +18,7 @@ const addToDo = (item) => {
     listItem.addEventListener(
         "click",
         function(){
-            this.classList.toggle("done")
+            // this.classList.toggle("done")
         }
     )
     listItem.querySelector("i").addEventListener(
